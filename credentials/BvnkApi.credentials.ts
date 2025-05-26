@@ -19,6 +19,17 @@ export class BvnkApi extends HawkAuthApi {
 				default: 'https://api.bvnk.com',
 				description: 'The base URL for the BVNK API. Defaults to https://api.bvnk.com',
 			},
+			{
+				displayName: 'Webhook Secret',
+				name: 'webhookSecret',
+				type: 'string',
+				typeOptions: {
+					password: true,
+				},
+				default: '',
+				placeholder: 'Enter your BVNK webhook secret',
+				description: 'The secret key used to verify webhook signatures. Found in your BVNK merchant account settings.',
+			}
 		];
 	}
 } 

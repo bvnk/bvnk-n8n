@@ -37,7 +37,8 @@
       "dist/credentials/BvnkApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Bvnk/Bvnk.node.js"
+      "dist/nodes/Bvnk/Bvnk.node.js",
+      "dist/nodes/Bvnk/BvnkTrigger.node.js"
     ]
   },
   "devDependencies": {
