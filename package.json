@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-bvnk",
   "version": "1.0.0",
-  "description": "",
+  "description": "BVNK is a Stablecoin payments business. This node allows you to interact with BVNK's payment APIs for sending and receiving stablecoins, primarily through custom API calls.",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -25,7 +25,7 @@
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
     "lintfix": "eslint nodes credentials package.json --fix",
-    "prepublishOnly": "npm build && npm lint -c .eslintrc.prepublish.js nodes credentials package.json"
+    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
   },
   "files": [
     "dist"

@@ -12,6 +12,7 @@ import { Buffer } from 'buffer';
 export class HawkAuthApi implements ICredentialType {
 	name = 'hawkAuthApi';
 	displayName = 'Hawk Authentication API';
+	documentationUrl = 'https://github.com/mozilla/hawk';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Hawk ID',
