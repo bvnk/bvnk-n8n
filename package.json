@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-bvnk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BVNK is a Stablecoin payments business. This node allows you to interact with BVNK's payment APIs for sending and receiving stablecoins, primarily through custom API calls.",
   "keywords": [
     "n8n-community-node-package"
